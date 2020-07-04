@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签</title>
+</head>
+<body>
+<!--
+    table: 表格标签
+    tr: 行标签
+    td: 单元格标签
+    th: 表头单元格，默认字体居中加粗
+-->
+<table width="50%" border="1" bgcolor="#f0f8ff" align="center">
+    <!--
+        border:表格线的宽度，默认为零，没有表格线
+        bgcolor:表格背景色
+        align:对齐方式
+    -->
+    <tr><!--代表第一行-->
+        <th>name</th><!--代表第一行第一个单元格，以此类推-->
+        <th>position</th>
+        <th>number</th>
+    </tr>
+    <tr> <!--代表第二行-->
+        <td>马内</td> <!--代表第二行第一个单元格，以此类推-->
+        <td>前锋</td>
+        <td>10</td>
+    </tr>
+    <tr> <!--代表第三行-->
+        <td>萨拉赫</td> <!--代表第三行第一个单元格，以此类推-->
+        <td>边锋</td>
+        <td>11</td>
+    </tr>
+</table>
+
+<hr>
+
+<table width="50%" border="1" bgcolor="#f0f8ff" align="center">
+    <!--
+        border:表格线的宽度，默认为零，没有表格线
+        bgcolor:表格背景色
+        align:对齐方式
+    -->
+    <!--属性介绍：
+
+    -->
+    <caption>利物浦球员信息表</caption>
+    <thead>
+    <tr> <!--代表第一行-->
+        <th>name</th> <!--代表第一行第一个单元格，以此类推-->
+        <th>position</th>
+        <th>number</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr align="center" bgcolor="gray"> <!--代表第二行--> <!--这里的center表示文字居中显示-->
+        <td>马内</td> <!--代表第二行第一个单元格，以此类推-->
+        <td>前锋</td>
+        <td>10</td>
+    </tr>
+    <tr> <!--代表第三行-->
+        <td>萨拉赫</td> <!--代表第三行第一个单元格，以此类推-->
+        <td>边锋</td>
+        <td>11</td>
+    </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
